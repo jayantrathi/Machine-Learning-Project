@@ -47,8 +47,19 @@ The goal is to understand how scheduling and environmental factors contribute to
 - Linear SVM  
 
 ---
+## Model Comparison
 
-## Final Model Performance
+| Model                | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---------------------|----------|-----------|--------|----------|---------|
+| **Random Forest**   | 0.7636   | 0.7973    | 0.7069 | **0.7494** | **0.8515** |
+| Decision Tree       | 0.7377   | 0.7459    | 0.7209 | 0.7332   | 0.8214  |
+| Extra Trees         | 0.7313   | 0.7695    | 0.6604 | 0.7108   | 0.8170  |
+| Gradient Boosting   | 0.6528   | 0.6597    | 0.6310 | 0.6450   | 0.7116  |
+| Logistic Regression | 0.6322   | 0.6379    | 0.6114 | 0.6244   | 0.6822  |
+| Linear SVM          | 0.6323   | 0.6388    | 0.6089 | 0.6235   | N/A     |
+| AdaBoost            | 0.6216   | 0.6292    | 0.5921 | 0.6101   | 0.6739  |
+
+## Final Model Performance for the Best Model - Random Forest
 
 | Metric        | Value |
 |--------------|------|
