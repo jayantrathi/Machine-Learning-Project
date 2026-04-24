@@ -51,8 +51,8 @@ The goal is to understand how scheduling and environmental factors contribute to
 
 | Metric        | Value |
 |--------------|------|
-| **F1 Score** | ~0.76 |
-| **ROC-AUC**  | ~0.85 |
+| **F1 Score** | 0.76 |
+| **ROC-AUC**  | 0.85 |
 | **Model**    | Random Forest |
 
 The Random Forest model provided the best balance between precision and recall, effectively capturing delay patterns.
@@ -77,8 +77,6 @@ The Random Forest model provided the best balance between precision and recall, 
 #### Temperature
 ![Temperature vs Delay](temp_vs_delay.png)
 
-#### Pressure
-![Pressure vs Delay](pressure_vs_delay.png)
 
 #### Dew Point
 ![Dewpoint vs Delay](dewpoint_vs_delay.png)
@@ -99,7 +97,6 @@ The Random Forest model provided the best balance between precision and recall, 
 
 ---
 
-
 ---
 
 ## How to Run
@@ -111,7 +108,6 @@ pip install -r requirements.txt
 2. Launch Notebook 
 
 jupyter notebook Project.ipynb
-
 
 ---
 
