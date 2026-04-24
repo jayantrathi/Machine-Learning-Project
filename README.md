@@ -59,7 +59,7 @@ The goal is to understand how scheduling and environmental factors contribute to
 | Linear SVM          | 0.6323   | 0.6388    | 0.6089 | 0.6235   | N/A     |
 | AdaBoost            | 0.6216   | 0.6292    | 0.5921 | 0.6101   | 0.6739  |
 
-## Final Model Performance for the Best Model - Random Forest
+## Final Model Performance for the Best Model = Random Forest
 
 | Metric        | Value |
 |--------------|------|
